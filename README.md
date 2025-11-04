@@ -1,21 +1,22 @@
-🐍 Snake Game
+# 🐍 Snake Game
 
-A classic Snake game built in Python, designed with clean, modular, and beginner-friendly code. Move the snake, eat the food, and grow your score — but don’t hit the walls or yourself!
+A classic **Snake Game** built in **Python**, featuring smooth movement, collision detection, and a modular, beginner-friendly design. Eat food to grow your snake — but avoid crashing into yourself or the walls!
 
-🎮 Features
+---
 
-Smooth snake movement and collision detection
+## 🎮 Features
+- Real-time gameplay with arrow key controls  
+- Random food spawning  
+- Score tracking system  
+- Clean, object-oriented design (Snake, Food, Scoreboard)  
+- Easy to customize and extend  
 
-Random food spawning
+---
 
-Real-time score tracking
+## ⚙️ Setup
 
-Object-oriented design (Snake, Food, Scoreboard classes)
-
-Easy to customize and extend
-
-⚙️ Setup
-# Clone the repo
+```bash
+# Clone the repository
 git clone https://github.com/usingal04/Snake-Game.git
 cd Snake-Game
 
@@ -23,24 +24,3 @@ cd Snake-Game
 python main.py
 
 
-Use arrow keys to move the snake.
-
-🧠 Project Structure
-Snake-Game/
-├── main.py          # Game loop
-├── snake.py         # Snake logic
-├── food.py          # Food logic
-├── scoreboard.py    # Score tracking
-└── README.md
-
-🚀 Future Ideas
-
-Add difficulty levels
-
-Save high scores
-
-Include sound effects and themes
-
-💡 Made by Utsav Singal
-
-Have fun coding & playing! 🕹️
