@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>🐍Snake Game🐍</title>
+<!-- Link to the external stylesheet -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="page">
+<div class="container">
+<!-- Header / HUD area -->
+<header class="hud">
+<h1 class="title">🐍Snake Game🐍</h1>
+<div class="score-row">
+<div id="score" class="score">Score: 0</div>
+<div class="hint">Use arrow keys (or on-screen buttons on mobile)</div>
+</div>
+</header>
+
+
+<!-- Canvas wrapper to hold game and overlay -->
+<div class="game-wrap">
+<canvas id="game" width="600" height="600" aria-label="Snake game canvas"></canvas>
+
+
+<!-- Overlay for Game Over state -->
+<div id="overlay" class="overlay hidden" role="dialog" aria-hidden="true">
+<div class="overlay-card">
+<h2 id="gameoverText">Game Over</h2>
+<p>Final score: <strong id="finalScore">0</strong></p>
+<div class="controls">
+<button id="restart" class="btn">Restart</button>
+<button id="resume" class="btn ghost">Start / Resume</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Footer controls (Start/Restart + repo link) -->
+<footer class="footer">
+<div class="buttons">
+<button id="startBtn" class="btn">Start / Resume</button>
+<button id="pauseBtn" class="btn ghost">Pause</button>
+</div>
+<a class="repo-link" href="https://github.com/Dishika31/The-Snake-Game/blob/main/README.md" target="_blank" rel="noopener">Read Instructions</a>
+</footer>
+
+
+<!-- Simple mobile controls (will be hidden on desktop) -->
+<nav class="mobile-controls" aria-hidden="true">
+<button data-dir="up" class="m-btn">▲</button>
+<div class="m-row">
+<button data-dir="left" class="m-btn">◀</button>
+<button data-dir="down" class="m-btn">▼</button>
+<button data-dir="right" class="m-btn">▶</button>
+</div>
+</nav>
+</div>
+</main>
+
+
+<!-- Link to the JavaScript file -->
+<script src="script.js" defer></script>
+</body>
+</html>
+
+
+
+
