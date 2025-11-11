@@ -34,6 +34,7 @@ Snake-Game/
 ├─ script.js       # Game logic and input controls
 └─ python_version/ # Original Python Turtle-based version
 
+
 ## 📌 Future Improvements
 
 - Add sound effects for eating and collisions  
