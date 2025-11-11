@@ -1,26 +1,34 @@
-# 🐍 Snake Game
+🐍 Snake Game
+A fun and interactive Snake Game created in Python (Turtle Graphics) and upgraded into a web-based version using HTML, CSS, and JavaScript. You can play it directly in the browser using keyboard or mobile controls!
 
-A classic **Snake Game** built in **Python**, featuring smooth movement, collision detection, and a modular, beginner-friendly design. Eat food to grow your snake — but avoid crashing into yourself or the walls!
+🎮How to Play
+Control the snake using the Arrow keys (desktop)
+Use on-screen direction buttons (mobile/tablet)
+Eat the food to grow and increase your score
+Avoid hitting the walls or your own body
+When the game ends, restart and try for a better score!
 
----
+✨Features
+Classic Snake gameplay
+Live score display
+Game over screen with final score
+Mobile-friendly controls
+Smooth movement & animations
+Fully responsive design
+🧩 Project Versions
+Version Language Play Method
+🐍 Python Version Python (Turtle) Local execution
+🌐 Web Version HTML, CSS, JavaScript Browser — Play Anytime!
 
-## 🎮 Features
-- Real-time gameplay with arrow key controls  
-- Random food spawning  
-- Score tracking system  
-- Clean, object-oriented design (Snake, Food, Scoreboard)  
-- Easy to customize and extend  
+📂 Project Structure
+Snake-Game/
+├─ index.html → Game UI layout
+├─ styles.css → Styling & responsive design
+├─ script.js → Game logic & controls
+├─ python_version/ → Original Python Turtle version
 
----
-
-## ⚙️ Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/usingal04/Snake-Game.git
-cd Snake-Game
-
-# Run the game
-python main.py
-
-
+📌 Future Improvements
+Sound effects
+High score storage
+Themes/skins for snake
+Difficulty levels
