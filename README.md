@@ -1,34 +1,43 @@
-🐍 Snake Game
-A fun and interactive Snake Game created in Python (Turtle Graphics) and upgraded into a web-based version using HTML, CSS, and JavaScript. You can play it directly in the browser using keyboard or mobile controls!
+# 🐍 Snake Game
 
-🎮How to Play
-Control the snake using the Arrow keys (desktop)
-Use on-screen direction buttons (mobile/tablet)
-Eat the food to grow and increase your score
-Avoid hitting the walls or your own body
-When the game ends, restart and try for a better score!
+An enjoyable and interactive Snake game developed in Python with the Turtle graphics library. Later enhanced into a web version using HTML, CSS, and JavaScript, playable directly in browsers on desktop or mobile devices.
 
-✨Features
-Classic Snake gameplay
-Live score display
-Game over screen with final score
-Mobile-friendly controls
-Smooth movement & animations
-Fully responsive design
-🧩 Project Versions
-Version Language Play Method
-🐍 Python Version Python (Turtle) Local execution
-🌐 Web Version HTML, CSS, JavaScript Browser — Play Anytime!
+## 🎮 How to Play
 
-📂 Project Structure
+- Use the **Arrow keys** to control the snake's movement on desktop  
+- Use on-screen direction buttons for mobile/tablet controls  
+- Eat food to grow longer and increase your score  
+- Avoid crashing into the walls or your own body  
+- Restart to try surpassing your previous high score when the game ends
+
+## ✨ Features
+
+- Classic Snake gameplay  
+- Live score display  
+- Game over screen with the final score  
+- Mobile-friendly touch controls  
+- Smooth animations and movement  
+- Fully responsive design optimized for all devices
+
+## 🧩 Project Versions
+
+| Version      | Language           | How to Play                  |
+|--------------|--------------------|------------------------------|
+| 🐍 Python    | Python (Turtle)    | Local execution in Python    |
+| 🌐 Web       | HTML, CSS, JS      | Play anytime in the browser  |
+
+## 📂 Project Structure
+
 Snake-Game/
-├─ index.html → Game UI layout
-├─ styles.css → Styling & responsive design
-├─ script.js → Game logic & controls
-├─ python_version/ → Original Python Turtle version
+├─ index.html # Web game UI layout
+├─ styles.css # Styling and responsive design
+├─ script.js # Game logic and input controls
+├─ python_version/ # Original Python Turtle-based version
 
-📌 Future Improvements
-Sound effects
-High score storage
-Themes/skins for snake
-Difficulty levels
+
+## 📌 Future Improvements
+
+- Add sound effects for eating and collisions  
+- Maintain high score storage  
+- Create different themes/skins for the snake  
+- Implement multiple difficulty levels  
