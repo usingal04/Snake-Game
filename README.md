@@ -28,11 +28,11 @@ An enjoyable and interactive Snake game developed in Python with the Turtle grap
 
 ## 📂 Project Structure
 
-Snake-Game/
-├─ index.html      # Web game UI layout
-├─ styles.css      # Styling and responsive design
-├─ script.js       # Game logic and input controls
-└─ python_version/ # Original Python Turtle-based version
+Snake-Game/  
+  ├─ index.html      # Web game UI layout  
+  ├─ styles.css      # Styling and responsive design  
+  ├─ script.js       # Game logic and input controls  
+  └─ python_version/ # Original Python Turtle-based version
 
 
 ## 📌 Future Improvements
